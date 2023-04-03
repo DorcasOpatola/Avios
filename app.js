@@ -12,3 +12,11 @@ sayHello('Dorcas');
 // var sayHello = function() {
 //
 // }
+
+const queD = require('./logger');
+
+//console.log(logger);
+
+queD('DevCareer Network');
+
+// jshint TO SCAN JS CODE FOR ERRORS
