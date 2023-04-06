@@ -20,3 +20,15 @@ const queD = require('./logger');
 queD('DevCareer Network');
 
 // jshint TO SCAN JS CODE FOR ERRORS
+
+//HOW TO USE BUILT-IN NODE MODULES 
+
+//const path = require('path');
+//
+//var pathObj = path.parse(__filename);
+//
+//console.log(pathObj);
+
+const os = require("os");
+
+var preOse = 
