@@ -19,16 +19,22 @@ const queD = require('./logger');
 
 queD('DevCareer Network');
 
-// jshint TO SCAN JS CODE FOR ERRORS
+// Use 'jshint' TO SCAN JS CODE FOR ERRORS
 
 //HOW TO USE BUILT-IN NODE MODULES 
+// Case I:
+const path = require('path');
+var pathObj = path.parse(__filename);
+console.log(pathObj);
 
-//const path = require('path');
-//
-//var pathObj = path.parse(__filename);
-//
-//console.log(pathObj);
+// Case II:
+const os = require("node:os");
 
-const os = require("os");
+var totalMemory = os.totalmem();
 
-var preOse = 
+var freeMemory = os.freemem();
+
+console.log('Total Memory: ' + totalMemory);
+console.log(`Total Memory: ${totalMemory}`);
+
+console.log(`Free Memory: ${freeMemory}`);
